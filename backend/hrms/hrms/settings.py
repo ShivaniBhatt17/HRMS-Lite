@@ -66,7 +66,7 @@ MIDDLEWARE = [
 
 CORS_ALLOW_ALL_ORIGINS = True
 
-ROOT_URLCONF = 'hrms.urls'
+ROOT_URLCONF = 'hrms.hrms.urls'
 
 TEMPLATES = [
     {
@@ -83,7 +83,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'hrms.wsgi.application'
+WSGI_APPLICATION = 'hrms.hrms.wsgi.application'
 
 
 # Database
