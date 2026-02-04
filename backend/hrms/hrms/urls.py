@@ -17,8 +17,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from employees.views import EmployeeViewSet
-from attendance.views import AttendanceViewSet
+from hrms.employees.views import EmployeeViewSet
+from hrms.attendance.views import AttendanceViewSet
 
 router = DefaultRouter()
 router.register('employees', EmployeeViewSet)

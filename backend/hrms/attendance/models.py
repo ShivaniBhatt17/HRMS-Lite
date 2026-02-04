@@ -1,6 +1,6 @@
 from django.db import models
 
-from employees.models import Employee
+from hrms.employees.models import Employee
 
 class Attendance(models.Model):
     STATUS_CHOICES = (
